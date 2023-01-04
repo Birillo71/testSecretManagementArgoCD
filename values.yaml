@@ -1,2 +1,3 @@
 username: "<path:secret/data/argocd#username>"
+
 password: "<path:secret/data/argocd#password>"
