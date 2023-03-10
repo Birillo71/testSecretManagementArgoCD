@@ -7,7 +7,7 @@ data:
   database: mongodb
   database_uri: mongodb://localhost:27017
   test: {{ .Values.password }}
-  test2: <path:secret/data/argocd#username>
+  test2: <path:secret/data/argocd#password>
   # Or set as complete file contents (even JSON!)
   keys: | 
     image.public.key=771 
